@@ -10,7 +10,7 @@ function Score({ currentScore, bestScore }) {
             </div>
 
             <div id='instructions'>
-                Instructions: Get points by clicking on a crypto but don't click on any more than once!
+                Instructions: Get points by clicking on a pokemon but don't click on any more than once!
             </div>
 
             <div id='currentScore'>
