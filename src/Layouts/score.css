@@ -1,0 +1,32 @@
+.header {
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto auto auto; /* Adjust the number of rows */
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        grid-template-rows: auto auto auto auto; /* Maintain the rows layout for small screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust font size as needed */
+    }
+
+    #instructions {
+        font-size: 0.8em; /* Adjust font size as needed */
+    }
+
+    #currentScore, #bestScore {
+        text-align: center;
+    }
+
+    #currentScore {
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        display: flex;
+        align-items: center; /* Vertically center the content */
+        justify-content: center;
+    }
+}
